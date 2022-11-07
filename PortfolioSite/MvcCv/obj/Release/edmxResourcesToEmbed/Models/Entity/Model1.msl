@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbCvModelStoreContainer" CdmEntityContainer="DbCvEntities">
+    <EntitySetMapping Name="TblAbout">
+      <EntityTypeMapping TypeName="DbCvModel.TblAbout">
+        <MappingFragment StoreEntitySet="TblAbout">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Explanation" ColumnName="Explanation" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblAdmin">
+      <EntityTypeMapping TypeName="DbCvModel.TblAdmin">
+        <MappingFragment StoreEntitySet="TblAdmin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblCertificate">
+      <EntityTypeMapping TypeName="DbCvModel.TblCertificate">
+        <MappingFragment StoreEntitySet="TblCertificate">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Explanation" ColumnName="Explanation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblCommunication">
+      <EntityTypeMapping TypeName="DbCvModel.TblCommunication">
+        <MappingFragment StoreEntitySet="TblCommunication">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblEducation">
+      <EntityTypeMapping TypeName="DbCvModel.TblEducation">
+        <MappingFragment StoreEntitySet="TblEducation">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Subtitle1" ColumnName="Subtitle1" />
+          <ScalarProperty Name="Subtitle2" ColumnName="Subtitle2" />
+          <ScalarProperty Name="GPA" ColumnName="GPA" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblExperience">
+      <EntityTypeMapping TypeName="DbCvModel.TblExperience">
+        <MappingFragment StoreEntitySet="TblExperience">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Subtitle" ColumnName="Subtitle" />
+          <ScalarProperty Name="Explanation" ColumnName="Explanation" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblHobby">
+      <EntityTypeMapping TypeName="DbCvModel.TblHobby">
+        <MappingFragment StoreEntitySet="TblHobby">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Explanation1" ColumnName="Explanation1" />
+          <ScalarProperty Name="Explanation2" ColumnName="Explanation2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblTalent">
+      <EntityTypeMapping TypeName="DbCvModel.TblTalent">
+        <MappingFragment StoreEntitySet="TblTalent">
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Talent" ColumnName="Talent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSOCIALMEDIA">
+      <EntityTypeMapping TypeName="DbCvModel.TBLSOCIALMEDIA">
+        <MappingFragment StoreEntitySet="TBLSOCIALMEDIA">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="İcon" ColumnName="İcon" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

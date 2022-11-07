@@ -1,0 +1,31 @@
+﻿@model MvcCv.Models.Entity.TblEducation
+
+@{
+    ViewBag.Title = "EgitimEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>New Education</h2>
+
+<br />
+<form method="post">
+    @Html.Label("Title")
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Title, "", new { @style = "color:red" })
+    <br />
+    @Html.Label("Subtitle1")
+    @Html.TextBoxFor(x => x.Subtitle1, new { @class = "form-control" })
+    <br />
+    @Html.Label("Subtitle2")
+    @Html.TextBoxFor(x => x.Subtitle2, new { @class = "form-control" })
+    <br />
+    @Html.Label("GPA")
+    @Html.TextBoxFor(x => x.GPA, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.GPA, "", new { @style = "color:blue" })
+    <br />
+    @Html.Label("Date")
+    @Html.TextBoxFor(x => x.Date, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Save</button>
+</form>
+

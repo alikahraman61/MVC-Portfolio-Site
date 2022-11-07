@@ -1,0 +1,18 @@
+﻿@model MvcCv.Models.Entity.TblTalent
+@{
+    ViewBag.Title = "YeniYetenek";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>New Skills</h2>
+<br />
+<form method="post">
+    @Html.Label("Skills")
+    @Html.TextBoxFor(x => x.Talent, new { @class = "form-control" })
+    <br />
+    @Html.Label("Degree")
+    @Html.TextBoxFor(x => x.Rate, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Save</button>
+</form>
+

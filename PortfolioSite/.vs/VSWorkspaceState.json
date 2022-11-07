@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MvcCv",
+    "\\MvcCv\\Controllers",
+    "\\MvcCv\\Models",
+    "\\MvcCv\\Models\\Entity",
+    "\\MvcCv\\Views",
+    "\\MvcCv\\Views\\Admin",
+    "\\MvcCv\\Views\\Login",
+    "\\MvcCv\\Views\\Shared",
+    "\\MvcCv\\Views\\SosyalMedya"
+  ],
+  "SelectedNode": "\\MvcCv.sln",
+  "PreviewInSolutionExplorer": false
+}
